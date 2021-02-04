@@ -1,4 +1,8 @@
 # BboxxTest
+Ozair bhai - You can access my code - that i done today in bboxTestSuite.spec.js file:
+Path to access this file:- bboxx-test-updated\cypress\integration\examples\bboxTestSuite.spec.js
+
+
 /** 
  * Get data from /users from JSON Placeholder (A fake REST API online tool) https://jsonplaceholder.typicode.com/users
  * Show the users data in a list with pagination. (10 users per page)
