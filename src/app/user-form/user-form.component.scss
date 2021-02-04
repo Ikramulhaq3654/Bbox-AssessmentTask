@@ -1,0 +1,5 @@
+$rusty-red: #b81c17;
+
+.ng-invalid:not(form) {
+	border-left: 5px solid $rusty-red;
+}

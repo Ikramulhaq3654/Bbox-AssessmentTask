@@ -1,4 +1,14 @@
 # BboxxTest
+/** 
+ * Get data from /users from JSON Placeholder (A fake REST API online tool) https://jsonplaceholder.typicode.com/users
+ * Show the users data in a list with pagination. (10 users per page)
+ * Add search functionality in the list. Should be searchable by id, name and username
+ * Add functionality to create a form for adding user with some mandatory and other optional fields
+ * Add functionality to delete user in the list
+ * Use POST to the API to add a user and DELETE to delete a user from the API. [It does not actually post but the APIs should be visible in the networks]
+ * Update the list based on add and delete.
+ * Write unit tests to validate all your methods.
+ * */
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 

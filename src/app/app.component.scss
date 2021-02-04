@@ -1,0 +1,43 @@
+$default-text-color: #888da8;
+
+.container {
+	color: $default-text-color;
+	h1 {
+		margin: 20px auto;
+	}
+
+	.top-cont {
+		margin-top: 32px;
+	}
+
+	.btn {
+		margin: 0 auto;
+		float: right;
+	}
+
+	thead {
+		border-top: hidden;
+	}
+
+	.cont-table {
+		min-height: 540px;
+		margin-top: 18px;
+	}
+
+	.pag > ::ng-deep ngb-pagination {
+		float: right;
+		margin-top: 18px;
+	}
+
+	.src-cont {
+		position: relative;
+		fa-icon {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin: auto 10px;
+			right: 101px;
+			line-height: 38px;
+		}
+	}
+}
