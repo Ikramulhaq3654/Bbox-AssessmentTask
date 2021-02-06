@@ -9,4 +9,4 @@ TestCase 1 - Add New User->Entering All Fields
 TestCase 2 - Add New User->Entering only mandatory/Required Fields
 TestCase 3 - Delete a user from the GRID
 
-Also doing Search Username in the first 2 testcases.
+Also doing Search  the newly created User from the GRID in the first 2 testcases.
