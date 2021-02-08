@@ -1,17 +1,15 @@
 {
   "url": "http://localhost:4200/",
 
-  "name": "Test-Name",
-  "username": "Test-Username",
-  "email": "Test@Test.com",
-  "Address": "House#123,Lahore,Pakistan",
-  "PhoneNo":"+92-12345678",
-  "Website":"www.bbox.com",
-  "Company": "Bbox",
+  "nameOne": "Test-Name",
+  "usernameOne": "Test-Username",
+  "emailOne": "Test@Test.com",
+  "address": "House#123,Abc city,Xyz country",
+  "phoneNo":"+92-12345678",
+  "website":"www.bbox.com",
+  "company": "Bbox",
 
   "nameTwo": "Test-NameTwo",
   "usernameTwo": "Test-UsernameTwo",
-  "emailTwo": "TestTwo@Test.com",
-
-  "Name":"Ervin Howell"
+  "emailTwo": "TestTwo@Test.com"
  }

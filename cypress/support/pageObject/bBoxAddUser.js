@@ -46,11 +46,18 @@ class BboxAddUser {
 
     get gridRow(){
       return cy.get('tbody td')
-
     }
 
     get clickDelete(){
       return cy.get('[data-icon="trash-alt"]')
+    }
+
+    get threeSecondWait(){
+      return cy.wait(3000)
+    }
+
+    clickTrashIcon(name){
+       cy.get('tbody td').contains(name).siblings('td').find('[data-icon="trash-alt"]').click()
     }
 
    addUserWithAllFields(name,username,email,address,phone,website,company) {
@@ -72,8 +79,7 @@ class BboxAddUser {
       this.addEmail.click().clear().type(emailTwo).should('have.value', emailTwo)
       this.clickSubmit.click()
     }
-
-  
   }
-  
+
   export default new BboxAddUser()
+  
